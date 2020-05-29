@@ -1,0 +1,48 @@
+h1
+{
+  animation: type 3s steps(16) infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: consolas;
+  width: 22ch;
+  color: #fff;
+  font-weight: bold;
+}
+
+@keyframes type
+{
+  0%{
+    width: 0ch;
+  }
+  100% {
+    width: 22ch;
+  }
+}
+marquee{
+  width: 50%;
+  font-size: x-large;
+  color:white;
+  font-weight: bold;
+}
+
+ul
+{
+  color:#fff;
+  font-weight: bold;
+  font-family: sans-serif;
+  list-style: square;
+}
+
+h3
+{
+  font-size: medium;
+  font-weight: bold;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.color
+{
+  background: #fff;
+  white-space: normal;
+}
